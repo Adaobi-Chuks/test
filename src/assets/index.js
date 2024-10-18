@@ -14,6 +14,7 @@ import mara from "./Mara.jpg";
 import yellowCardLogo from "./yellowCardLogo.svg";
 import base from "./base.png";
 import onchainkit from "./onchainkit.png";
+import telegram from "./telegram.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -50,6 +51,7 @@ export {
   yellowCardLogo,
   base,
   onchainkit,
+  telegram,
   quotes,
   robot,
   send,

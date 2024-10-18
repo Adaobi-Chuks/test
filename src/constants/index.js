@@ -1,4 +1,4 @@
-import { emmanuel, ada, mara, facebook, instagram, linkedin, twitter, yellowCardLogo, base, coinbase, onchainkit, send, shield, star } from "../assets";
+import { emmanuel, ada, mara, facebook, instagram, linkedin, twitter, yellowCardLogo, base, telegram, onchainkit, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -195,7 +195,7 @@ export const clients = [
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: telegram,
   },
   {
     id: "client-4",
