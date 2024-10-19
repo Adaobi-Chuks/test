@@ -1,4 +1,4 @@
-import { emmanuel, ada, mara, facebook, instagram, linkedin, twitter, yellowCardLogo, base, telegram, onchainkit, send, shield, star } from "../assets";
+import { emmanuel, ada, mara, facebook, instagram, linkedin, twitter, yellowCardLogo, base, telegram, onchainkit, africastalking, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -29,25 +29,25 @@ export const features = [
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: send,
+    title: "Send and Receive Token using your basenames or numbers",
     content:
-      "We take proactive steps make sure your information and transactions are secure and also set up a PIN to ensure safe and secure transactions.",
+      "Transact with ease using unique base names like ekete.base.eth or phone numbers",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Send and Receive Tokens with Ease",
-    content:
-      "Transact using phone numbers or unique domain names like ekete.base.eth.",
-  },
-  {
-    id: "feature-4",
-    icon: star,
     title: "Pay Bills Using Crypto",
     content:
       "Top up your airtime and data effortlessly using your crypto wallet, enabling you to stay connected anytime you need it.",
   },
+  {
+    id: "feature-4",
+    icon: shield,
+    title: "100% Secured",
+    content:
+      "We take proactive steps make sure your information and transactions are secure and also set up a PIN to ensure safe and secure transactions.",
+  }
 ];
 
 export const feedback = [
@@ -95,72 +95,6 @@ export const stats = [
   },
 ];
 
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
-
 export const socialMedia = [
   {
     id: "social-media-1",
@@ -201,4 +135,8 @@ export const clients = [
     id: "client-4",
     logo: onchainkit,
   },
+  {
+    id: "client-5",
+    logo: africastalking
+  }
 ];

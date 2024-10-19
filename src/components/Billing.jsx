@@ -18,11 +18,15 @@ const Billing = () => (
         Your Phone Number <br className="sm:block hidden" /> is Your Wallet.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-10`}>
-        Imagine if you could send and receive money just like sending a text message. With our service, your phone number acts as your digital wallet! No need to remember complicated account numbers, wallet addresses or passwords, just use your phone number to manage your money.
+        Imagine if you could send and receive money just like sending a text message.
+        <br />
+        With our service, your phone number acts as your digital wallet.
+        <br />
+        No need to remember complicated account numbers, wallet addresses or passwords, just use your phone number to manage your money.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-      <Button styles={`mt-10`} />
+        <Button styles={`mt-10`} />
       </div>
     </div>
   </section>

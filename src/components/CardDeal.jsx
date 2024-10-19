@@ -6,10 +6,14 @@ const CardDeal = () => (
   <section className={`${layout.section} mb-20`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Blockchain Payments <br className="sm:block hidden" /> at Your Fingertips.
+        Empowering Payments <br className="sm:block hidden" /> Simplifying Crypto.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Forget about long wallet addresses and complicated steps! With our platform, sending and receiving payments is as simple as using your phone. All you need is a phone number or an easy-to-remember domain name to transfer tokens instantly.
+        Forget about long wallet addresses and complicated steps.
+        <br />
+        With our platform, sending and receiving payments is as simple as ever.
+        <br />
+        All you need is a phone number or an easy to remember base name to transfer tokens instantly.
       </p>
 
       <Button styles={`mt-10`} />

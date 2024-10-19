@@ -18,14 +18,15 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
+const Business = () => (
   <section id="features" className={`mt-25 ${layout.section}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      Wallets in Your Pocket, <br className="sm:block hidden" /> Transact with Ease.
+        Blockchain Payments <br className="sm:block hidden" /> at Your Fingertips.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Create, manage, and transact with your crypto wallet using USSD and Telegram. Anytime, anywhere.
+        Create, manage, and transact with your crypto wallet using USSD and Telegram.
+        <br />Anytime, Anywhere.
       </p>
       <Button styles={`mt-10`} />
     </div>

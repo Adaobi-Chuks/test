@@ -17,7 +17,9 @@ const Hero = () => {
           Payments.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          The system that provide a seamless and efficient payment experience. We've focused on simplicity, low transaction fees, and accessibility to meet all your payment needs.
+          The system that provides a seamless and efficient payment experience.
+          <br />
+          We've focused on simplicity, low transaction fees, and accessibility to meet all your payment needs.
         </p>
       </div>
 
