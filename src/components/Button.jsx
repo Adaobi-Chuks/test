@@ -3,11 +3,7 @@ import React, { useState } from "react";
 const Button = ({ styles, text, onClick }) => (
   <button
     type="button"
-<<<<<<< HEAD
     className={`py-6 px-20 font-poppins font-bold text-[18px] text-primary rounded-[10px] outline-none ${styles}`}
-=======
-    className={`py-6 px-20 justify-between font-poppins font-bold text-[16px] text-primary rounded-[10px] outline-none ${styles}`}
->>>>>>> ba05fcbe53579588d5d1f7e74ac78233b1e3d7d5
     onClick={onClick}
   >
     {text}
