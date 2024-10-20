@@ -3,20 +3,19 @@ import React, { useState } from "react";
 const Button = ({ styles, text, onClick }) => (
   <button
     type="button"
-    className={`py-6 px-20 font-poppins font-medium text-[18px] text-primary rounded-[10px] outline-none ${styles}`}
+    className={`py-6 px-20 font-poppins font-bold text-[18px] text-primary rounded-[10px] outline-none ${styles}`}
     onClick={onClick}
   >
     {text}
   </button>
 );
 
-// Usage
 const ButtonGroup = () => {
-  const [buttonText, setButtonText] = useState("Get USSD");
+  const [buttonText, setButtonText] = useState("Get USSD  ");
   const [buttonColor, setButtonColor] = useState("bg-orange-500");
 
   const handleCopyToClipboard = () => {
-    const code = "*123#";
+    const code = "*384*308040#";
 
     navigator.clipboard.writeText(code)
       .then(() => {
@@ -34,14 +33,14 @@ const ButtonGroup = () => {
   };
 
   return (
-    <div className="mt-10 flex space-x-28">
+    <div className="mt-10 flex flex-wrap justify-start md:justify-start gap-20 space-x-28">
       <Button
-        styles="bg-green-500"
+        styles={`whitespace-nowrap bg-green-500 md:w-[150px] lg:w-[180px]`}
         text="Get Bot"
         onClick={() => window.location.href = "https://t.me/egoblox_bot"}
       />
       <Button
-        styles={buttonColor}
+        styles={`whitespace-nowrap ${buttonColor} md:w-[150px] lg:w-[180px]`}
         text={buttonText}
         onClick={handleCopyToClipboard}
       />
