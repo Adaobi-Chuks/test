@@ -3,7 +3,11 @@ import React, { useState } from "react";
 const Button = ({ styles, text, onClick }) => (
   <button
     type="button"
+<<<<<<< HEAD
     className={`py-6 px-20 font-poppins font-bold text-[18px] text-primary rounded-[10px] outline-none ${styles}`}
+=======
+    className={`py-6 px-20 justify-between font-poppins font-bold text-[16px] text-primary rounded-[10px] outline-none ${styles}`}
+>>>>>>> ba05fcbe53579588d5d1f7e74ac78233b1e3d7d5
     onClick={onClick}
   >
     {text}
@@ -33,14 +37,24 @@ const ButtonGroup = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="mt-10 flex flex-wrap justify-start md:justify-start gap-20 space-x-28">
       <Button
         styles={`whitespace-nowrap bg-green-500 md:w-[150px] lg:w-[180px]`}
+=======
+    <div className="mt-10 flex flex-wrap justify-center md:justify-start gap-12">
+      <Button
+        styles="bg-green-500 w-auto md:w-[150px] lg:w-[180px]"
+>>>>>>> ba05fcbe53579588d5d1f7e74ac78233b1e3d7d5
         text="Get Bot"
         onClick={() => window.location.href = "https://t.me/egoblox_bot"}
       />
       <Button
+<<<<<<< HEAD
         styles={`whitespace-nowrap ${buttonColor} md:w-[150px] lg:w-[180px]`}
+=======
+        styles={`${buttonColor} w-auto md:w-[150px] lg:w-[180px]`}
+>>>>>>> ba05fcbe53579588d5d1f7e74ac78233b1e3d7d5
         text={buttonText}
         onClick={handleCopyToClipboard}
       />
